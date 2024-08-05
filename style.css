@@ -29,6 +29,17 @@ button {
   border-radius: 0 1rem 0 1rem;
   border: 1px solid yellow;
   padding: 5px 15px;
+  transition: all 0.3s;
+}
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: yellow;
+  color: #383838;
+}
+button:active {
+  color: whitesmoke;
+  border: 1.2px solid #383838;
 }
 .top {
   clear: right;
@@ -47,8 +58,6 @@ button {
   display: none;
   justify-content: space-evenly;
 }
-botton :active {
-  .bottom {
-    display: flex;
-  }
+.show {
+  display: flex;
 }
