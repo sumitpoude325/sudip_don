@@ -54,10 +54,24 @@ button:active {
 .bottom img {
   width: 2.5rem;
 }
+.ok {
+  height: 0;
+  font-size: 0;
+  overflow: hidden;
+  transition: all 1s ease-in-out;
+  color: white;
+}
 .bottom {
-  display: none;
+  padding-top: 1rem;
+  display: flex;
   justify-content: space-evenly;
 }
 .show {
-  display: flex;
+  height: 104.8px;
+  font-size: 1rem;
+}
+hr {
+  border: 6px dotted yellow;
+  border-bottom: none;
+  width: 5%;
 }
